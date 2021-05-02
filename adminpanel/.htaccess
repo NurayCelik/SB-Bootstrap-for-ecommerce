@@ -16,7 +16,7 @@ SetEnvIf Request_URI "^/adminpanel/url"  require_auth=true
 AuthType Basic
 AuthName "Sifre Korumali Alan"
 #Sunucuda 
-#AuthUserFile /home/u7649500/testsitesi.xyz/myboxcont/.htpasswd
+#AuthUserFile /home/u7649500/mobil.xyz/myboxcont/.htpasswd
 
 
 #Localhost 
@@ -34,4 +34,4 @@ Allow from env=require_auth
 # güvenlik için sunucuya yukleyince yorum satırlarını değiştir
 #SSLOptions +StrictRequire
 #SSLRequireSSL
-#SSLRequire %{HTTP_HOST} eq "www.testsitesi.xyz"
+#SSLRequire %{HTTP_HOST} eq "www.mobil.xyz"
