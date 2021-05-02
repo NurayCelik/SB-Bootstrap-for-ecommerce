@@ -20,7 +20,7 @@ AuthName "Sifre Korumali Alan"
 
 
 #Localhost 
-AuthUserFile D:/wamp64/www/BlogPostAdmin/adminpanel/.htpasswd
+AuthUserFile D:/wamp64/www/adminpanel/.htpasswd
 require valid-user
 Options +FollowSymLinks
 Order Deny,Allow
